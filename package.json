@@ -5,7 +5,8 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "test:cache": "jest",
-    "test:nocache": "jest --no-cache"
+    "test:nocache": "jest --no-cache",
+    "test:ohno": "jest --no-cache -i"
   },
   "author": "Andrew Levine",
   "license": "MIT",
