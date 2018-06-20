@@ -1,0 +1,16 @@
+{
+  "name": "jest-coverage-bug-repro",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test:cache": "jest",
+    "test:nocache": "jest --no-cache"
+  },
+  "author": "Andrew Levine",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "lerna": "^2.11.0"
+  }
+}
